@@ -1,0 +1,42 @@
+table{
+    border-collapse: collapse;
+}
+th{
+    background-color: cadetblue;
+    color: white;
+    padding: 20px;
+    width: 50px;
+    border: 1px solid black;
+}
+
+.normal{
+    background-color: white;
+    color: black;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.media{
+    padding: 10px;
+    text-align: left;
+    background-color: cadetblue;
+    color: white;
+}
+
+.medianota{
+    background-color: cadetblue;
+    color: white;
+}
+
+
+
+
+
+.nota{
+    padding: 10px;
+    
+}
