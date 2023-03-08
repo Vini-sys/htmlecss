@@ -1,0 +1,41 @@
+table{
+    border-collapse: collapse;
+    position: relative;
+}
+
+caption{
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+thead > tr > th{
+    position: sticky;
+    top: 0;
+    
+}
+
+
+
+
+th, td, tr{
+    border: 1px solid black;
+    padding: 5px;
+    
+    
+}
+
+tbody > tr:nth-child(even){ 
+    background-color: lightgrey;
+
+}
+
+
+th{
+ background-color:black;
+ color: white;
+}
+
+td{
+    text-align: center;
+}
