@@ -1,0 +1,17 @@
+body{
+    background-image: url(../pacote-d013/imagens/fundo-madeira.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.iphone{
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+}
