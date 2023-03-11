@@ -1,3 +1,9 @@
+*{margin: 0px;
+
+    padding: 0px;
+
+}
+
 body{
     background-image: url(../pacote-d013/imagens/fundo-madeira.jpg);
     background-attachment: fixed;
@@ -41,14 +47,24 @@ main{
 nav{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     position: relative;
+    
   
 }
 
 .images{
-     width: 80px;
-     border-radius: 100px;
+    margin: 0px;
+    width: 40px;
+    border-radius:50%;
+    padding: 5px
  
+}
+
+.images:hover{
+    transition: transform 0.5s;
+    transform: translate(3px, 3px);
+    border: 0.2px solid rgba(255, 255, 255, 0.178);
 }
 
 
