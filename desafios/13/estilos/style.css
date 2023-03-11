@@ -5,13 +5,52 @@ body{
     background-size: cover;
 }
 
-.iphone{
-    display: block;
-    margin: auto;
-    padding: 20px;
+main{
+   position: relative;
+   height: 100vh;
+   
 }
 
-iframe{
-    display: block;
-    margin: auto;
+#telefone{
+    height: 545px;
+    width: 270px;
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+   
+    background-image: url(../pacote-d013/imagens/frame-iphone.png);
+    background-repeat: no-repeat;
+    
+  
+   
 }
+
+.home{
+    position: relative;
+    top: 68px;
+    left: 18px;
+
+    width: 234px;
+    height: 419px;
+    
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  
+}
+
+.images{
+     width: 80px;
+     border-radius: 100px;
+ 
+}
+
+
+
+
