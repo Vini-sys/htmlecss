@@ -9,13 +9,13 @@
 <body>
     <h1>Meu primeiro formulário</h1>
 
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" autocomplete="off" method="post">
         
         <p><label for="inome">nome: </label> 
-            <input type="text" id="inome"></p>
+            <input type="text" id="inome" placeholder="seu usuário" required></p>
         
-        <p><label for="isobrenome"> sobrenome:    </label>
-            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><label for="isenha"> senha:    </label>
+            <input type="password" name="isenha" id="isenha" placeholder="senha" minlength="8" required></p>
 
         <input type="submit" value="enviar">
     </form>
