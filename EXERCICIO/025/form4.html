@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <h1>FORMULÁRIO</h1>
+
+    <h2>checkbox e radio</h2>
+<form action="cadastro.php">
+    
+        <fieldset>
+    
+            <legend>sexo</legend>
+            <p><input type="radio" name="sexo" id="M" value="M"> <label for="M">Masculino</label></p>
+    
+            <p><input type="radio" name="sexo" id="F" value="F"><label for="F"> Feminino</label></p>
+    
+        </fieldset>
+    
+        <fieldset>
+            <legend>esportes</legend>
+            <p><input type="checkbox" name="fut" id="ifut"> <label for="ifut">Futebol</label></p>
+    
+            <p><input type="checkbox" name="basq" id="ibasq"><label for="ibasq"> Basquete</label></p>
+    
+            <p><input type="checkbox" name="tenis" id="itenis"><label for="itenis"> Tenis</label></p>
+            
+    
+    
+    
+        </fieldset>
+
+        
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+
+       
+</form>
+
+    <h2>CORES</h2>
+
+    <form action="cadastro1.php" method="post">
+        <fieldset>
+            <p>
+                <label for="icores"> cor: </label>
+        
+                <input type="color" name="cores" id="icores">
+            </p>
+        
+            <p>
+        
+                <label for="irange">tonalidade: </label>
+        
+                <input type="range" name="range" id="irange">
+        
+            </p>
+            <p>
+                <input type="file" name="" id="">
+            </p>
+        </fieldset>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </form>
+</body>
+</html>
