@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário 5</title>
+</head>
+<body>
+    <form action="cadastro.php">
+
+        <p>
+            <label for="idest">Estado</label>
+            <select name="estado" id="idest">
+                <optgroup label="Nordeste">
+                    <option value="CE"> Ceará</option>
+                    
+                    <option value="PE"> Pernambuco</option>
+
+                    <option value="PA">Paraíba</option>
+
+
+                </optgroup>
+
+                <optgroup label="Sudeste">
+
+                    <option value="SP">São Paulo</option>
+
+                    <option value="RJ"> Rio de Janeiro</option>
+                    
+                </optgroup>
+
+            </select>
+
+           
+            
+        </p>
+
+        
+
+        <p>
+        
+        <label for="idprof">Profissão: </label>
+            
+        <input type="text" name="prof" id="idprof" list="Idprof">
+
+        <datalist id="Idprof">
+            <option value="prof">professor</option>
+            <option value="prog">programador</option>
+            <option value="ven">vendedor</option>
+            <option value="med">médico</option>
+        </datalist>
+        
+
+
+        
+        <p>
+            <label for="idareatext"> Descrição</label> <br>
+            <textarea name="areatext" id="idareatext" cols="30" rows="10" >
+
+
+            </textarea></p>
+
+        </p>
+
+        
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </form>
+</body>
+</html>
