@@ -1,0 +1,12 @@
+
+header > nav{
+    display: none;
+}
+
+main {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main::after {
+    content: "Site feito por vinicius";
+}
