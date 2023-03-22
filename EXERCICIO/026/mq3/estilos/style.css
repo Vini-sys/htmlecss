@@ -1,0 +1,103 @@
+@charset "UTF 8";
+
+
+ @media screen and (min-width: 760px) and (max-width: 930px) {
+    
+    body, html{
+        background-image: url(../imagens/back-tablet.jpg);
+
+    
+
+    
+    }
+
+    #phone{
+        display: none;
+        
+    }
+    
+    #print{
+        display: none;
+    }
+    
+    #tablet{
+        display: block;
+        margin: auto;
+    }
+    
+    #pc{
+        display: none;
+    }
+    
+    #tv{
+        display: 
+        none;
+    }
+    
+ }
+
+ @media screen and (min-width: 930px) and (max-width: 1200px) { 
+
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+
+    #pc{
+        display: block;
+        margin: auto;
+    }
+
+    #phone{
+        display: none;
+    }
+
+    #print{
+        display: none;
+    }
+    
+    #tablet{
+        display: none;
+        
+    }
+   
+    #tv{
+        display: none;
+    }
+
+    
+    
+ }
+
+ @media screen and (min-width: 1200px) {
+
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+        background-position: center center;
+
+
+    }
+
+    #pc{
+        display: none;
+    }
+
+    #phone{
+        display: none;
+    }
+
+    #print{
+        display: none;
+    }
+    
+    #tablet{
+        display: none;
+        
+    }
+   
+    #tv{
+        display: block;
+        margin: auto;
+    }
+
+    
+ }
