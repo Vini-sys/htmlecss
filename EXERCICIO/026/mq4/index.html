@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu responsivo</title>
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/style.css" media="screen">
+    <link rel="stylesheet" href="estilos/mediaquery.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>MENU RESPONSIVO</h1>
         
@@ -51,6 +52,16 @@
                 
          else{
             itens.style.display = "block"
+        }0
+        
+    }
+
+    function mudouTamanho(){
+        if (window.innerWidth >= 760)
+        {itens.style.display = "block"}
+
+        else {
+            itens.style.display = "none"
         }
     }
 

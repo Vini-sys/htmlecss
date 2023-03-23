@@ -1,0 +1,22 @@
+
+@media screen and (min-width: 360px) and (max-width: 760px) {
+
+    #menu{
+        background-color: aqua;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+        
+    }
+
+    #menu:hover{
+        background-color: white;
+        color: black;
+    }
+
+    nav#itens{
+        display: none;
+    }
+    
+}

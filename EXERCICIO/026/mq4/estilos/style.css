@@ -10,6 +10,8 @@
 
 }
 
+    
+
 body{
     background-color: aquamarine;
 
@@ -33,57 +35,55 @@ header > h1{
 
 }
 
-#menu{
-    background-color: aqua;
-    display: block;
-    text-align: center;
-    padding: 10px;
-    cursor: pointer;
+
+
     
-}
 
-#menu:hover{
-    background-color: white;
-    color: black;
-}
-
-
-header > nav > ul > li {
 
   
-    padding: 0px;
-    list-style-type: none;
+
+
+
+    header > nav > ul > li {
+
     
-}
+        padding: 0px;
+        list-style-type: none;
+        
+    }
 
 
-li > a{
-    display: block;
-    background-color: lightblue;
-    text-decoration: none;
-    color: black;
-    padding: 5px;
-    border-radius: 5px;
-    margin: auto;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.521);
-    border: 1px solid rgba(0, 0, 0, 0.219);
-    text-align: center;
-   
-}
-
-nav{
-    display: none;
-}
-
-
-li > a:hover{
-    background-color: blue;
-    position: relative;
-    left: 10px;
+    li > a{
+        display: block;
+        background-color: lightblue;
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+        border-radius: 5px;
+        margin: auto;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.521);
+        border: 1px solid rgba(0, 0, 0, 0.219);
+        text-align: center;
     
+    }
+
+    nav#itens{
+        display: block;
+    }
+
+    #menu{
+        display: none;
+    }
 
 
-}
+    li > a:hover{
+        background-color: blue;
+        position: relative;
+        left: 10px;
+        
+
+    }
+    
 
 main{
     background-color: rgba(255, 255, 255, 0.603);
@@ -105,3 +105,4 @@ main > article > p {
     padding: 10px;
     text-align: justify;
 }
+
